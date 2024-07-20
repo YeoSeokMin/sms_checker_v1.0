@@ -93,7 +93,6 @@ function getColumnDataWithMaxMatches(worksheet, range) {
         /82\d{2}\d{7,8}/,
         /01[1-9][- ]?\d{3,4}[- ]?\d{4}/,
         /10[- ]?\d{4}[- ]?\d{4}/,
-        /10\d{7}/
     ];
 
     let maxMatchCount = 0;
